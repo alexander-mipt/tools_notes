@@ -5,13 +5,16 @@
 1. Скомпилировать с ключом `-g`
 2. `gdb ./a.out`
 3. Добавить хотя бы одну точку останова, начиная с точки вхождения, т.е. с `main()`:
-   `b <номер строки в исходном коде>` или `b main()`.
+   `b <номер строки в исходном коде>` или `b main`.
    Комментарии и прочий неисполняемый мусор игнорируется.
 4. `r` - run the program
 5. * `n` - next line (без захода в функцию)
-   * `s` - step (с заходом в функцию); `s L` - step `L` lines
+   * `s` - step (с заходом в функцию); `s <num>` - step `<num>` lines
    * `c` - continue (к следующей точке останова - *breakpoint*)
    * `f` - run until function exit (not acceptable in main())
+6. * `bt` - stack backtrace
+   * `p &<tab/symbol>` - get addr of object or symbol
+   * `info symbol <addr>` - get symbol from addr
 
 ## Basics
 * `print <var_name>` - распечатать переменную
