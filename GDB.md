@@ -6,7 +6,6 @@
 2. `gdb ./a.out`
 3. Добавить хотя бы одну точку останова, начиная с точки вхождения, т.е. с `main()`:
    `b <номер строки в исходном коде>` или `b main`.
-   Комментарии и прочий неисполняемый мусор игнорируется.
 4. `r` - run the program
 5. * `n` - next line (без захода в функцию)
    * `s` - step (с заходом в функцию); `s <num>` - step `<num>` lines
@@ -27,53 +26,57 @@
 * `print $<num>` - принт `<num>`-й кешированной переменной
 * `ptype <var>` - вывод типа переменнной
 * `print &<var>` - вывод адреса переменной
-* `x/<size><format> <addr>` - examine mem - просмотр содержимого памяти:
-   * `size`:
-      * `b` - byte
-      * `h` - halfword (2B)
-      * `w` - word (4B)
-      * `g` - doubleword (8B)
-   * `format`:
-      * `o` - octave
-      * `x` - hex
-      * `d` - decimal
-      * `f` - float
-      * `i` - instruction
-      * `s` - string
-```
+```bash
 # list src
 list
 ```
-## general info
-```
+## Comments & Theory
+> Комментарии и прочий неисполняемый мусор игнорируется. \
+> Отладочная информация занимает от нескольких Кб до нескольких Гб данных. \
+> Можно вызывать функции и выражения до их исполнения. \
+## registers & flags
+```bash
 # registers
 info registers
 i r
 i r x0
 set $eflags = <val>
 set $r1 = <val>
-
+```
+## stack
+```bash
 # frame
 info frame
 ```
 
 ## window (TUI)
-```
+```bash
 # get reg window with changes highlight
 layout reg
 # show asm
 layout asm
 ```
 
-
 ## memory
-```
+```bash
 explore
 x/<countity><format><unit_size>
 x/10xg *<addr>
 x/5i $pc
 x/100xb $r1
 ```
+#### `unit-size`
+* `b` - byte
+* `h` - halfword (2B)
+* `w` - word (4B)
+* `g` - doubleword (8B)
+#### `format`
+* `o` - octave
+* `x` - hex
+* `d` - decimal
+* `f` - float
+* `i` - instruction
+* `s` - string
 
 ## Advanced (disasm, segfault etc.)
 ```
@@ -85,8 +88,6 @@ objdump -gdS -M intel <bin> > <file.dis>
 ```
 Ctrl+x/Ctrl+a - TUI (graphical window in terminal)  on/off
 ```
-Отладочная информация занимает от нескольких Кб до нескольких Гб данных.
-* Можно вызывать функции и выражения до их исполнения
 ```
 # print smth in hex/dec/...
 p/x p/d
