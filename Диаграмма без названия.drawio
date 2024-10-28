@@ -1,11 +1,71 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Страница — 1" id="Lid2r2EDo0fxVjvlRvmw">
-    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lm9w9J3FANfo3lZdisOQ-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="230" width="80" height="80" as="geometry" />
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-15" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="695" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-14" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="695" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-11" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="315" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lm9w9J3FANfo3lZdisOQ-10" target="lm9w9J3FANfo3lZdisOQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-10" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="320" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-2" value="Нода оптической навигации" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-3" value="Нода управления микроконтроллером" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="135" y="435" width="305" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-4" value="Нода локального ориентирования" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="300" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-5" value="Нода управления аудио" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-7" value="Нода управления логистикой движения" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="135" y="230" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lm9w9J3FANfo3lZdisOQ-8" target="lm9w9J3FANfo3lZdisOQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-8" value="Нода управления логистикой&lt;div&gt;подбора / постановки паллеты&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lm9w9J3FANfo3lZdisOQ-9" target="lm9w9J3FANfo3lZdisOQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-9" value="Нода обработки запросов с сервера" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="135" y="50" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-12" value="Нода&lt;div&gt;имитационной модели робота&lt;/div&gt;&lt;div&gt;(симултор)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="495" y="435" width="305" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-13" value="Средства обработки и визуализации телеметрии" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="50" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-16" value="Сервис запуска сценариев" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="50" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.543;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lm9w9J3FANfo3lZdisOQ-15" target="lm9w9J3FANfo3lZdisOQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.449;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lm9w9J3FANfo3lZdisOQ-15" target="lm9w9J3FANfo3lZdisOQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.23;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lm9w9J3FANfo3lZdisOQ-10" target="lm9w9J3FANfo3lZdisOQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.774;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lm9w9J3FANfo3lZdisOQ-11" target="lm9w9J3FANfo3lZdisOQ-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
