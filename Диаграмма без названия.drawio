@@ -20,16 +20,16 @@
           <mxGeometry x="120" y="170" width="320" height="190" as="geometry" />
         </mxCell>
         <mxCell id="lm9w9J3FANfo3lZdisOQ-2" value="Нода оптической навигации" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="602.5" y="240" width="110" height="50" as="geometry" />
+          <mxGeometry x="602.5" y="240" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lm9w9J3FANfo3lZdisOQ-3" value="Нода управления микроконтроллером" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="135" y="435" width="305" height="70" as="geometry" />
+          <mxGeometry x="135" y="435" width="215" height="70" as="geometry" />
         </mxCell>
         <mxCell id="lm9w9J3FANfo3lZdisOQ-4" value="Нода локального ориентирования" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="602.5" y="300" width="110" height="50" as="geometry" />
+          <mxGeometry x="602.5" y="290" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lm9w9J3FANfo3lZdisOQ-5" value="Нода управления аудио" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="602.5" y="180" width="110" height="50" as="geometry" />
+          <mxGeometry x="602.5" y="190" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lm9w9J3FANfo3lZdisOQ-7" value="Нода управления логистикой движения" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="135" y="230" width="130" height="70" as="geometry" />
@@ -47,13 +47,13 @@
           <mxGeometry x="135" y="50" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lm9w9J3FANfo3lZdisOQ-12" value="Нода&lt;div&gt;имитационной модели робота&lt;/div&gt;&lt;div&gt;(симултор)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="495" y="435" width="305" height="70" as="geometry" />
+          <mxGeometry x="580" y="435" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lm9w9J3FANfo3lZdisOQ-13" value="Средства обработки и визуализации телеметрии" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-13" value="Средства предобработки телеметрии и логирования" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="600" y="50" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lm9w9J3FANfo3lZdisOQ-16" value="Сервис запуска сценариев" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="360" y="50" width="190" height="50" as="geometry" />
+          <mxGeometry x="370" y="50" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lm9w9J3FANfo3lZdisOQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.543;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lm9w9J3FANfo3lZdisOQ-15" target="lm9w9J3FANfo3lZdisOQ-10">
           <mxGeometry relative="1" as="geometry" />
@@ -66,6 +66,21 @@
         </mxCell>
         <mxCell id="lm9w9J3FANfo3lZdisOQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.774;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="lm9w9J3FANfo3lZdisOQ-11" target="lm9w9J3FANfo3lZdisOQ-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-27" value="Блок аппаратного взаимодействия" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="510" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-28" value="Нода управления лидарами" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="435" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-29" value="Активный блок (логическое состояние робота)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-30" value="Пассивный блок (телеметрия)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="330" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lm9w9J3FANfo3lZdisOQ-31" value="Блок взаимодействия с сервером" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="100" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
